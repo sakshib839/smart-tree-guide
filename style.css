@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* 🌿 Realistic Jungle Background */
+.home {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: 
+        linear-gradient(rgba(0, 60, 0, 0.5), rgba(0, 60, 0, 0.5)),
+        url('https://images.unsplash.com/photo-1441974231531-c6227db76b6e');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* 🌟 Premium Glass Card */
+.glass-card {
+    backdrop-filter: blur(18px);
+    background: rgba(255,255,255,0.15);
+
+    padding: 45px;
+    border-radius: 25px;
+    text-align: center;
+
+    color: #ffffff;
+
+    box-shadow: 
+        0 8px 32px rgba(0,0,0,0.4),
+        inset 0 0 10px rgba(255,255,255,0.2);
+
+    border: 1px solid rgba(255,255,255,0.2);
+
+    transition: all 0.3s ease;
+}
+
+.glass-card:hover {
+    transform: translateY(-5px) scale(1.02);
+}
+
+/* Title Styling */
+h1 {
+    font-size: 34px;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+}
+
+.subtitle {
+    color: #e8f5e9;
+    margin-bottom: 20px;
+}
+
+/* 🔘 Buttons Upgrade */
+.buttons button {
+    padding: 15px 30px;
+    margin: 15px;
+    font-size: 18px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+
+    background: rgba(255,255,255,0.9);
+    color: #2e7d32;
+    font-weight: 600;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+
+    transition: all 0.3s ease;
+}
+
+.buttons button:hover {
+    transform: scale(1.1);
+    background: #2e7d32;
+    color: white;
+}
+
+/* 🌿 Info Page Card */
+.card {
+    max-width: 420px;
+    margin: 50px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+    text-align: center;
+
+    box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+}
+
+/* Tree image */
+.tree-img {
+    width: 120px;
+    margin: 15px 0;
+}
+
+/* 🌟 Fun Fact Box */
+.fun-box {
+    margin-top: 15px;
+    padding: 15px;
+    background: linear-gradient(135deg, #e8f5e9, #c8e6c9);
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+/* Back button */
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background: #56ab2f;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #2e7d32;
+    transform: scale(1.05);
+}
+
+/* 📦 Section styling */
+.section {
+    margin-top: 15px;
+    padding: 15px;
+    background: #f1f8e9;
+    border-radius: 12px;
+    text-align: left;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.section h2 {
+    margin-bottom: 8px;
+    color: #2e7d32;
+}
+
+/* List styling */
+ul {
+    padding-left: 18px;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+/* Intro text */
+.intro {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Highlight text */
+.highlight {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #1b5e20;
+}
