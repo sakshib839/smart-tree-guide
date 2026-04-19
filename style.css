@@ -3,7 +3,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-/* 🌿 Realistic Jungle Background */
+/* 🌿 Background */
 .home {
     height: 100vh;
     display: flex;
@@ -19,7 +19,7 @@ body {
     background-repeat: no-repeat;
 }
 
-/* 🌟 Premium Glass Card */
+/* 🌟 Glass Card */
 .glass-card {
     backdrop-filter: blur(18px);
     background: rgba(255,255,255,0.15);
@@ -43,7 +43,7 @@ body {
     transform: translateY(-5px) scale(1.02);
 }
 
-/* Title Styling */
+/* Titles */
 h1 {
     font-size: 34px;
     font-weight: bold;
@@ -56,7 +56,7 @@ h1 {
     margin-bottom: 20px;
 }
 
-/* 🔘 Buttons Upgrade */
+/* Buttons */
 .buttons button {
     padding: 15px 30px;
     margin: 15px;
@@ -80,7 +80,7 @@ h1 {
     color: white;
 }
 
-/* 🌿 Info Page Card */
+/* 🌿 Info Card */
 .card {
     max-width: 420px;
     margin: 50px auto;
@@ -92,13 +92,13 @@ h1 {
     box-shadow: 0 12px 30px rgba(0,0,0,0.25);
 }
 
-/* Tree image */
+/* Image */
 .tree-img {
     width: 120px;
     margin: 15px 0;
 }
 
-/* 🌟 Fun Fact Box */
+/* Fun Box */
 .fun-box {
     margin-top: 15px;
     padding: 15px;
@@ -107,7 +107,7 @@ h1 {
     font-weight: bold;
 }
 
-/* Back button */
+/* Back Button */
 button {
     margin-top: 20px;
     padding: 10px 20px;
@@ -124,7 +124,7 @@ button:hover {
     transform: scale(1.05);
 }
 
-/* 📦 Section styling */
+/* Sections */
 .section {
     margin-top: 15px;
     padding: 15px;
@@ -140,7 +140,7 @@ button:hover {
     color: #2e7d32;
 }
 
-/* List styling */
+/* Lists */
 ul {
     padding-left: 18px;
 }
@@ -149,15 +149,77 @@ li {
     margin-bottom: 6px;
 }
 
-/* Intro text */
+/* Text */
 .intro {
     font-size: 16px;
     margin: 10px 0;
 }
 
-/* Highlight text */
 .highlight {
     margin-top: 10px;
     font-weight: bold;
     color: #1b5e20;
+}
+
+/* 📱 MOBILE OPTIMIZATION */
+@media (max-width: 480px) {
+
+    .home {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .glass-card {
+        width: 90%;
+        padding: 25px;
+        border-radius: 20px;
+    }
+
+    .card {
+        width: 90%;
+        margin: 20px auto;
+        padding: 20px;
+        border-radius: 18px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    .section h2 {
+        font-size: 18px;
+    }
+
+    .intro {
+        font-size: 14px;
+    }
+
+    li {
+        font-size: 14px;
+    }
+
+    .buttons button {
+        width: 100%;
+        margin: 10px 0;
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    button {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .tree-img {
+        width: 90px;
+    }
+
+    .section {
+        padding: 12px;
+    }
+
+    .fun-box {
+        font-size: 14px;
+        padding: 12px;
+    }
 }
